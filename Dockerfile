@@ -23,7 +23,7 @@ RUN curl -fsSL "$GLIDE_DOWNLOAD_URL" -o glide.tar.gz \
     && go get -u github.com/ngdinhtoan/glide-cleanup \
     && go get github.com/mitchellh/gox \
     && go get github.com/golang/lint/golint \
-    && go get honnef.co/go/simple/cmd/gosimple \
+    && go get honnef.co/go/tools/cmd/gosimple \
     && go get github.com/mdempsky/unconvert \
     && go get github.com/opennota/check/cmd/structcheck \
     && go get github.com/opennota/check/cmd/varcheck \
